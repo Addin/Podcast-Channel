@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    color: #060A24;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+div {
+    height: 80px;
+    width: 1440px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 25px;
+    grid-auto-rows: auto;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
