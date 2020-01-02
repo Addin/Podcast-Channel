@@ -6,11 +6,21 @@
 
 a {
     color: #060A24;
-    font-family:'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 28px;
     text-decoration: none;
+}
+
+a:hover {
+    color: #00F3BB;
+    text-decoration: line-through;
+
+}
+a:active{
+    color:rgba(6,10,36,0.56);
+    text-decoration:line-through;
 }
 
 div {
@@ -20,10 +30,11 @@ div {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    width: 90%;
+    grid-template-columns: repeat(5, 120px);
+    grid-template-rows: repeat(1, 200px);
+    justify-content: space-between;
     padding: 25px;
-    grid-auto-rows: auto;
-
 
 }
 
