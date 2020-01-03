@@ -69,7 +69,15 @@ h1 {
     color: #060A24;
     letter-spacing: 0;
     transform: translate(150px, 10px);
-
+    word-wrap: none;
+    white-space: nowrap;
+}
+h1 span{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 64px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-decoration: line-through;
 }
 
 .primary {
@@ -110,3 +118,11 @@ button:hover {
     font-family: 'IBM Plex Mono', monospace;
 
 }
+/* .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;   
+}
+.container div{
+    background-color: purple;
+} */
