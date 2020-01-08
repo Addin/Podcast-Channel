@@ -174,7 +174,12 @@ a:active {
 
 .where-text {
     margin-right: 17.8%;
+
 }
+
+.where-title {
+    margin-top: 100px;
+} 
 
 .images-container {
     display: grid;
@@ -281,9 +286,9 @@ a:active {
 .footer-container {
     display: grid;
     grid-template-columns: auto max-content;
-    width: 100%;
-    height: 80px;
+    grid-template-rows: 1fr;
     background-color: #FFFFFF;
+    padding: 36px 100px 36px 100px;
 }
 
 .footer-text {
@@ -302,4 +307,5 @@ a:active {
     color: #060A24;
     letter-spacing: 0;
     line-height: 28px;
+    grid-gap: 36px;
 }
