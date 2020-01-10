@@ -278,7 +278,7 @@ a:active {
     border: none;
     margin: auto;
 
-    
+
 }
 
 .button2:hover {
@@ -317,3 +317,19 @@ a:active {
     grid-gap: 36px;
 }
 
+@media (max-width: 768px) {
+
+    .images-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .images-byn {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 36px;
+    }
+
+}
