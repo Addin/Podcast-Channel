@@ -363,7 +363,6 @@ a:active {
     .where-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
         align-items: center;
 
     }
@@ -439,7 +438,6 @@ a:active {
     }
 
     .where-container img {
-        margin-top: auto;
         width: 64.58%;
     }
 
@@ -450,7 +448,7 @@ a:active {
     }
 
     .where-text {
-        margin-top: -40%;
+        margin: -10% auto auto auto;
     }
 
     .p-text {
@@ -458,7 +456,8 @@ a:active {
     }
 
     .guest-title {
-        margin-left: 0vw;
+        margin-left: 5%;
+        margin-top: 5%;
     }
 
     .subjects-title {
