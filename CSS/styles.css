@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+iframe {
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+}
+
 html {
     scroll-behavior: smooth;
 }
