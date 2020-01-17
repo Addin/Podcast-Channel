@@ -386,6 +386,7 @@ a:active {
 
     .supreme-container {
         margin-top: 0vh;
+        margin-left: 2%;
     }
 
     .text-1 {
@@ -441,11 +442,28 @@ a:active {
         line-height: 42px;
         margin-left: 5%;
     }
+
     .where-text {
         margin-top: -40%;
     }
 
-    .p-text{
+    .p-text {
         margin-left: 5%;
+    }
+
+    .guest-title {
+        margin-left: 0vw;
+    }
+
+    .subjects-title {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+    }
+
+    .subjects-container h2 {
+        margin: 10px auto 30px -42px;
     }
 }
