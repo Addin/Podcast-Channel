@@ -5,7 +5,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 h1 {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -70,7 +70,7 @@ a:active {
 
 /*Menu styles*/
 
-.menu-container {
+.menu-container-top {
     display: grid;
     grid-template-columns: auto max-content;
     grid-template-rows: 1fr;
@@ -78,15 +78,15 @@ a:active {
     margin: 20px 60px 30px 50px;
 }
 
-.menu {
+.menu-top {
     display: grid;
     grid-template-columns: repeat(4, max-content);
     grid-template-rows: 1fr;
     list-style: none;
 }
 
-.menu li {
-    margin: 0px 48px 0px 48px;
+.menu-top li {
+    margin: 0px 23.5% 0px 23.5%;
 }
 
 /*Button styles*/
@@ -147,8 +147,8 @@ a:active {
 }
 
 .episode-element img {
-    width: 100%;
-    height: 100%;
+    width: 5.9%;
+    height: 40.6%;
 }
 
 .episodes-title {
@@ -178,11 +178,6 @@ a:active {
 
 .where-text {
     margin-right: 17.8%;
-
-}
-
-.where-title {
-    margin-top: 100px;
 }
 
 .images-container {
@@ -290,7 +285,7 @@ a:active {
 }
 
 .guest-title {
-    margin-left: 200px;
+    margin-left: 13.9vw;
 }
 
 .footer-container {
@@ -320,18 +315,67 @@ a:active {
     grid-gap: 36px;
 }
 
-@media (max-width: 768px) {
+/* Responsive design  */
 
-    .images-container {
-        display: grid;
+@media only screen and (max-width: 720px) {
+    .episodes {
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
+        grid-gap: 0.2%;
+    }
+
+    .episode-element img {
+        width: 4.1%;
+        height: 93.1%;
     }
 
     .images-byn {
-        display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
+    .subjects-content {
+        grid-template-columns: 1fr;
+    }
+
+    .button2 {
+        width: 288px;
+        height: 48px;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #FFFFFF;
+        padding: 62px 38px 31px 45px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        margin-top: -35px;
+    }
+
+    .where-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+
+    }
+    .menu-top {
+        display: none;
+    }
+
+    p {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 14px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+        word-wrap: break-word;
+    }
+
+    .footer-icons {
+        justify-content: center;
+    }
 }
