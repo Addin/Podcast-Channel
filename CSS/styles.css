@@ -598,4 +598,8 @@ a:active {
         opacity: 1;
         position: absolute;
     }
+
+    .logo {
+        margin-left: -35px;
+    }
 }
