@@ -162,6 +162,7 @@ a:active {
     color: #FFFFFF;
     letter-spacing: 0;
     margin-left: 13.9vw;
+    margin-top: 1.7vw;
 
 }
 
@@ -261,8 +262,7 @@ a:active {
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: center;
-    margin-top: 5%;
-
+    margin: -1% 5% 0% 3%;
 }
 
 .news-button {
