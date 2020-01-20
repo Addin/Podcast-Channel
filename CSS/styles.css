@@ -410,7 +410,7 @@ a:active {
     .episodes-title {
         font-size: 36px;
         color: #FFF;
-        margin-left: 5.9vw;
+        margin: 5vw 2vw 5vw 5.9vw;
         line-height: 42px;
 
     }
