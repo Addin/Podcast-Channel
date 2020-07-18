@@ -4,7 +4,7 @@
 
 # Demo time!
 
-[Click here and let the magic begin!](https://vercel.com/juanprm/podcast-channel)
+[Click here and let the magic begin!](https://podcast-channel.juanprm.vercel.app/)
 
 # What I use to build this?
 
