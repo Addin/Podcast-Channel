@@ -177,8 +177,7 @@ a:active {
 }
 
 .where-container img {
-  margin: 64px;
-  width: 63.58%;
+  margin: 64px auto;
 }
 
 .where-image {
